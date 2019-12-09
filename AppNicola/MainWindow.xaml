@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppNicola"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="CanMinimize">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -22,12 +22,12 @@
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>
-        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="lblResult" Content="" HorizontalAlignment="Left" Margin="450,290,0,0" VerticalAlignment="Top" Width="290" Height="110" FontSize="20" FontFamily="SimSun-ExtB" Foreground="White"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="lblResult" Content="" HorizontalAlignment="Left" Margin="450,290,0,0" VerticalAlignment="Top" Width="290" Height="110" FontSize="20" FontFamily="SimSun-ExtB" Foreground="Black" Background="#00000000"/>
         <TextBox Name="txtValore" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="55" Margin="30,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="362" FontFamily="SimSun-ExtB" Background="{x:Null}" FontWeight="Bold" FontSize="20" Foreground="White"/>
-        <Button HorizontalAlignment="Left" Margin="115,290,0,0" VerticalAlignment="Top" Width="195" Click="Button_Click"  >
+        <Button HorizontalAlignment="Left" Margin="100,274,0,0" VerticalAlignment="Top" Width="195" Click="Button_Click"  >
             <Image Source="hrr.png" Stretch="Fill" Height="90" Width="185"/>
         </Button>
         <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Numero Binario:" HorizontalAlignment="Left" Margin="450,240,0,0" VerticalAlignment="Top" Width="290" Height="45" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic"/>
-        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Clicca qui!" HorizontalAlignment="Left" Margin="115,230,0,0" VerticalAlignment="Top" Width="195" Height="35" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="20"/>
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Clicca qui!" HorizontalAlignment="Left" Margin="100,305,0,0" VerticalAlignment="Top" Width="195" Height="35" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="20" Foreground="White"/>
     </Grid>
 </Window>
